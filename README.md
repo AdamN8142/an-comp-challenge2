@@ -5,4 +5,5 @@
 ##StaticComp 2 
 
 
-![](https://github.com/AdamN8142/an-comp-challenge2/files/2532583/screencapture-file-Users-adamniedzwiecki-Desktop-Turing-Mod-1-0-static-comp-2-index-html-2018-10-30-21_49_03.pdf)
+
+![Original Comp](https://user-images.githubusercontent.com/40923979/47765251-ae261c00-dc8e-11e8-895d-a7ec45324c04.png)
