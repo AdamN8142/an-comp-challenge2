@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<title></title>
+<body>
+  <main class = 'main'>
+    <nav class = 'nav-bar'>
+      <section class = 'nav-photo'>
+        <div class = 'user-photo'></div>
+        <p class = 'user-name'>Michael Scott<i class="fas fa-caret-down"></i></p>
+      </section>
+      <section class = 'nav-main'>
+        <p class="nav-header">Main</p>
+        <p class = "nav-home nav-text"><i class="fas fa-home"></i>HOME</p>
+        <p class = "nav-jobs nav-text"><i class="fas fa-briefcase"></i>JOBS</p>
+        <p class = "nav-resumes nav-text"><i class="fas fa-file"></i>RESUMES</p>
+        <p class = "nav-tasks nav-text"><i class="fas fa-clipboard-list"></i>TASKS</p>
+        <p class = "nav-calendar nav-text"><i class="fas fa-calendar-alt"></i>CALENDAR</p>
+      </section>
+      <section class = 'nav-admin'>
+        <p class="nav-header">Admin</p>
+        <p class = "nav-users nav-text"><i class="fas fa-user-friends"></i>USERS</p>
+        <p class = "nav-locations nav-text"><i class="fas fa-map-marker-alt"></i>LOCATIONS</p>
+        <p class = "nav-workflows nav-text"><i class="fas fa-pagelines"></i>WORKFLOWS</p>
+        <p class = "nav-job-boards nav-text"><i class="fas fa-chalkboard-teacher"></i>JOB BOARDS</p>
+        <p class = "nav-social nav-text"><i class="fas fa-stamp"></i>SOCIAL</p>
+      </section>
+      <section class = 'nav-categories'>
+        <p class ="nav-header">Categories</p>
+        <p class= "nav-administrative nav-text"><i class="fas fa-square sq1"></i>Administrative</p>
+        <p class = "nav-designs nav-text"><i class="fas fa-square sq2"></i>Designs</p>
+        <p class = "nav-executive nav-text"><i class="fas fa-square sq3"></i>Executive</p>
+        <p class = "nav-human-resources nav-text"><i class="fas fa-square sq4"></i>Human Resources</p>
+      </section>
+    </nav>
+    <section class = 'main-content'>
+      <header class = 'page-header'>
+        <i class="fas fa-bars header-icon"></i>
+        <input type="search" class = "search-bar" name= 'search' placeholder= "Search for a job, task, or resume.">
+        <i class="fas fa-address-book header-icon"></i>
+        <i class="fas fa-calendar-plus header-icon"></i>
+        <i class="fas fa-th header-icon"></i>
+      </header>
+      <section class = 'main-header-content'> 
+       <div> 
+        <h2 class = 'custy-service'>Customer Service Representative</h2>
+        <div class = 'city-post'> 
+          <h4 class = 'current-city'><i class="fas fa-map-marker-alt"></i>San Francisco, CA •</h4>
+          <h4 class = 'preview-text'>Preview this Post</h4>
+        </div>
+      </div> 
+      <div class ="top-section-buttons">
+        <button class = "top-btn open-button">Open</button>
+        <button class = "top-btn"><i class="fas fa-bookmark"></i></button>
+        <button class = "top-btn"><i class="fas fa-pencil-alt"></i></button>
+        <button class = "top-btn"><i class="fas fa-trash-alt"></i></button>
+        <i class="fas hide-con fa-link"></i>
+        <i class="fas  hide-con fa-caret-down"></i>
+      </div>
+    </section>
+    <div class = 'top-links-div'>
+      <section class = 'main-links'>
+        <p class = 'link'>SUMMARY</p>
+        <p class = 'link'>APPLICANTS</p>
+        <p class = 'link'>JOB BOARDS</p>
+        <p class = 'link'>INTERVIEWS</p>
+        <p class = 'link'>ACTIVITY</p>
+        <p class = 'link'>BROADCAST</p>
+        <p class = 'link'>NOTIFICATIONS</p>
+      </section> 
+    </div>
+    <section class = 'graph-container'>
+      <section class = 'circle-and-graph'>
+        <section class = "circles">
+          <div class="flex-wrapper">
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart green">
+                <path class="circle-bg"d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle" stroke-dasharray="80, 100" d="M18 33.9155
+                a 15.9155 15.9155 0 0 1 0 -31.831
+                a 15.9155 15.9155 0 0 1 0 31.831"
+                />
+                <text x="18" y="18.35" class="number">3,154</text>
+                <text x="18" y="22.35" class="text">APPLICANTS</text>
+              </svg>
+            </div>
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart blue">
+                <path class="circle-bg"
+                d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle" stroke-dasharray="40, 100"d="M18 33.9155
+                a 15.9155 15.9155 0 0 1 0 -31.831
+                a 15.9155 15.9155 0 0 1 0 31.831"
+                />
+                <text x="18" y="18.35" class="number">1,546</text>
+                <text x="18" y="22.35" class="text">INTERVIEWS</text>
+              </svg>
+            </div>
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart purple">
+                <path class="circle-bg"d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle" stroke-dasharray="20, 100"d="M18 33.9155
+                a 15.9155 15.9155 0 0 1 0 -31.831
+                a 15.9155 15.9155 0 0 1 0 31.831"
+                />
+                <text x="18" y="18.35" class="number">912</text>
+                <text x="18" y="22.35" class="text">FORWARDS</text>
+              </svg>
+            </div>
+          </div>
+            <button class = 'total-btn'>TOTALS -  out of 5,230 views</button>
+        </section>
+
+        <section class = 'graph'>
+          <img class = "bar-graph" src="Images/bargraph.png">
+  
+      <button class = 'app-button'>APPLICANTS/DAY</button>
+   
+        </section>
+
+      </section>
+    </section>
+    <!-- //LOWER HALF OF PAGE --> 
+    <section class = 'lower-half'>
+      <article class = 'job-card'>
+       <div class = 'resume-container'>
+        <header class = 'card-header'>
+          <h3 class = 'job-descrip'>JOB DESCRIPTION</h3>
+        </header>
+        <div class = 'button-back'>
+          <button class = 'edit-button'><i class="fas fa-pencil-alt"></i>Edit</button>
+        </div>
+        <h3 class= "card-title-sec ">POSITION TITLE</h3>
+        <p class="card-text">Customer service representative</p>
+        <h3 class= "card-title-sec">LOCATION</h3>
+        <p class="card-text">Ormond Beach, FL</p>
+        <h3 class= "card-title-sec">EMPLOYMENT TYPE</h3>
+        <p class="card-text"> Full-time</p>
+        <h3 class= "card-title-sec">EXPERIENCE</h3>
+        <p class="card-text">Mid-level</p>
+        <h3 class= "card-title-sec">STATUS</h3>
+        <p class="card-text">Open</p>
+        <h3 class= "card-title-sec">DESCRIPTION</h3>
+        <p class="card-text"> I am currently a software developer fluent in HTMl. Some say they have never seen better use of tags in their life! </p>
+        <h3 class= "card-title-sec">HIRING LEAD</h3>
+        <p class="card-text"><img  class = 'dog' src="Images/pit.jpeg"> Pup Tizzy</p>
+        <h3 class= "bottom-card">APPROVED SALARY</h3>
+        <p class="bottom-card-text">$58,000</p>
+      </div>
+    </article>
+    <section class = 'lower-right-links'>
+      <section class = "link-widget-resume">
+        <section class = "links-and-buttons">
+          <button class='sd-btn facebook'><i class="fab sd-btn-icon fa-facebook-f"></i>Post to Facebook</button>
+          <button class='sd-btn twitter'><i class="fab  sd-btn-icon fa-twitter"></i>Tweet this Job</button>
+          <button class='sd-btn linkedin'><i class="fab sd-btn-icon fa-linkedin"></i>Post to Linkedin</button>
+        </section>
+        <article class = "link-to-job">
+          <h4 class="btm-right-title"><i class="fas fa-globe"></i>Link to this Job</h4>
+          <p class = "sd-p"> This is a bunch of words, hey look how nice the words are today</p>
+          <div class = "button-and-input">
+            <input class="input-site" type="text" placeholder="http//google.com">
+            <button class='copy-btn'>Copy</button>
+          </div>
+        </article>
+        <article class = "use-widget">
+          <h4 class="btm-right-title"><i class="fas fa-film"></i>Use the Button Widget</h4>
+          <p class = "sd-p"> The word widget is great! You can try it out here!</p>
+          <div class = "button-and-input">
+            <input class="input-site"type="text" placeholder="http//google.com">
+            <button class='copy-btn'>Copy</button>
+          </div>
+        </article>
+        <article class = "upload-resume">
+          <h4 class="btm-right-title"><i class="far fa-paper-plane"></i>Upload resume to Linkedin</h4>
+          <p class = "sd-p"> Here you can upload your resume for review by our hiring team.</p>
+          <div class = "button-and-input">
+            <input class="input-site linked-input" type="text" placeholder="http//google.com">
+          </div>
+        </article>
+      </section>
+    </section>
+  </section>
+</section>
+</section>
+</main>
+</body>
+</html>
+
+
+   
